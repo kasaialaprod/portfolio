@@ -1,0 +1,20 @@
+body{
+    background-image: url(asset/image/fondecran.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #f4f4f4;
+    margin: 0; 
+}
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3.5em;
+}
+
+
+table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+th, td { border: 1px solid #444; padding: 8px; }
+th { background: #000; }
+a { color: #36d99a; }
