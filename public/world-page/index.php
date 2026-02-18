@@ -1,244 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#000000">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#projects">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <div class="viewport">
+    <section class="section section-hero">
+      <div class="content">
+        <h1>Bagage Technique</h1>
+        <p>Les services et tâches que je peux réaliser et les outils que j'utilise.</p>
 
-    <section id="about">
-        <h1>KOKESHA ISRAËL</h1>
-        <p>HARD WORK & DEDICATION !!!.</p>
+        <button class="cta-cards" id="showCardsBtn">
+          Découvrez cela ici
+        </button>
+      </div>
+
+      <div class="cards-wrapper" id="cardsWrapper">
+        <article class="card">
+          <h2>Développement front end</h2>
+          <p>Dévoloppement d'application web statique ou interactive.</p>
+        </article>
+
+        <article class="card">
+          <h2>Développement back end</h2>
+          <p>Compréhension de la logique serveur, des bases de données et des API pour faire fonctionner les applications web.</p>
+        </article>
+
+        <article class="card">
+          <h2>Card 3</h2>
+          <p>Encore un autre élément à découvrir.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="skills">
-        <h2>Mes connaissances</h2>
-        <div class="compet">
-            <div class="h3container">
-                <h3>Front-end</h3>
-            </div>
-
-            <table>
-                <tr>
-                    <td>
-                        <a href="school/html/index.html"><div class="planetComp"></div></a>
-                    </td>
-
-                    <td>
-                        <a href="school/css/index.html"><div class="planetComp"></div></a>
-                    </td>
-
-                    <td>
-                        <a href="school/javascript/chap1/index.html"><div class="planetComp"></div></a>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p>HTML</p>
-                    </td>
-
-                    <td>
-                        <p>CSS</p>
-                    </td>
-
-                    <td>
-                        <p>JavaScript</p>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td colspan="3">
-                        <a href="https://developer.apple.com/documentation/swift/"><div class="planetComp"></div></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <p>Swift</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="compet">
-            <div class="h3container">
-                <h3>Back-end</h3>
-            </div>
-                <table>
-                    <tr>
-                        <td>
-                            <a href="school/php/index.html"><div class="planetComp"></div></a>
-                        </td>
-
-                        <td>
-                            <a href="school/node/index.html"><div class="planetComp"></div></a>
-                        </td>
-
-                        <td>
-                            <a href="https://learn.microsoft.com/fr-fr/dotnet/csharp/"><div class="planetComp"></div></a>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <p>PHP</p>
-                        </td>
-
-                        <td>
-                            <p>Node.js</p>
-                        </td>
-
-                        <td>
-                            <p>C#</p>
-                        </td>
-                    </tr>
-                </table>
-        </div>
-
-        <div class="compet">
-            <div class="h3container">
-                <h3>Système</h3>
-            </div>
-
-            <table>
-                <tr>
-                    <td>
-                        <a href="school/c/chap1/index.html"><div class="planetComp"></div></a>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p>C</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="compet">
-            <div class="h3container">
-                <h3>Bon à savoir</h3>
-            </div>
-
-            <table>
-                <tr>
-                    <td>
-                        <a href="school/git/index.html"><div class="planetComp"></div></a>
-                    </td>
-
-                    <td>
-                        <a href="https://support.microsoft.com/fr-fr/microsoft-365"><div class="planetComp"></div></a>
-                    </td>
-
-                    <td>
-                        <a href="https://helpx.adobe.com/fr/creative-cloud/apps.html"><div class="planetComp"></div></a>
-                    </td>
-
-                </tr>
-
-                <tr>
-                    <td>
-                        <p>CLI</p>
-                    </td>
-
-                    <td>
-                        <p>Microsoft 365</p>
-                    </td>
-
-                    <td>
-                        <p>Adobe Creative Cloud</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
+    <section class="section section-about">
+      <div class="content">
+        <h2>À propos</h2>
+        <p>
+          Chaque section occupe 100% de la hauteur de l’écran et se cale
+          automatiquement quand tu scroll.
+        </p>
+      </div>
     </section>
 
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="proj">
-            <div class="h3container">
-                <h3>Mini-applis</h3>
-            </div>
-
-            <table>
-                <tr>
-                    <td>
-                        <a href="projet/truefalse/index.html"><div class="planetProj"></div></a>
-                    </td>
-                    <td>
-                        <a href="projet/pendu/index.html"><div class="planetProj"></div></a>
-                    </td>
-                    <td>
-                        <a href="projet/calculatrice/index.html"><div class="planetProj"></div></a>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <p>Vrai ou Faux</p>
-                    </td>
-                    <td>
-                        <p>Pendu</p>
-                    </td>
-                    <td>
-                        <p>Calculatrice</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="proj">
-            <div class="h3container">
-                <h3>Playground</h3>
-            </div>
-
-            <table>
-                <tr>
-                    <td>
-                        <a href="projet/car_dashbord/mission3.html"><div class="planetProj"></div></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Tableau de bord voiture</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
+    <section class="section section-projects">
+      <div class="content">
+        <h2>Projets</h2>
+        <p>
+          Tu peux utiliser cette structure pour un portfolio, une landing page
+          ou une présentation.
+        </p>
+        <button class="btn-primary">Call to action</button>
+      </div>
     </section>
 
-    <section id="from">
-        <h2>Contactez-moi</h2>
-        <form id="contact" method="POST" action="./routes/contact.php">
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <input type="submit" value="Envoyer">
-        </form>
+    <section class="section section-contact">
+      <div class="content">
+        <h2>Contact</h2>
+        <p>Dernière section avec un fond plus sombre pour le contraste.</p>
+      </div>
     </section>
-
-    <footer>
-        <p><a href="asset/doc/cv_kokesha.pdf">Mon CV</a></p>
-        <p><a href="mentions_legales/index.html">Mentions Légales</a></p>
-        <p>&copy; 2025 Mon Portfolio</p>
-    </footer>
-    </div>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
