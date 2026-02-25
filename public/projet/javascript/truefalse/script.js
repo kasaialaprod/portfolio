@@ -1,6 +1,4 @@
-//Create the function to load the game
 function loadTheGame() {
-            //When the function begins 'gameS' becomes true and we get to button by his ID
             gameStarted = true;
             trueBtn.disabled = false;
             falseBtn.disabled = false;
@@ -8,15 +6,15 @@ function loadTheGame() {
             trueBtn.addEventListener('click', trueButton);
             falseBtn.addEventListener('click', falseButton);
             
-            //Then we create another button named buttonB and define his Id and class name
             let buttonB = document.createElement("button");
             buttonB.id ='qButton';
             buttonB.className = 'game-button';
   
-            //We define his textContent that will be the text of first question
             buttonB.textContent = question[qNumber].text ;
+            buttonB.style.width = "300px"
+            buttonB.style.height = "75px"
+            buttonB.style.fontSize = "20px"
   
-            //We replace the old button for the buttonB, the one who shows the questions
             button.parentNode.replaceChild(buttonB , button);
             buttonB.addEventListener('click', nextQuestion);
             
@@ -88,7 +86,6 @@ function petlescore(){
 }
 
 function sablier(){
-  //Create a timer
   let timer = document.getElementById('time');
   let rebourd = Number(timer.textContent);
   rebourd = rebourd - 1;
@@ -118,7 +115,6 @@ function resetGame(){
 
 
 
-// Déclarer le tableau avec toutes les phrases
 let question = [ {text: 'Pour tout réel x, x² > 0 ', correctAnswer : true , rightAnswer: 'THAT WAS TRUE'} ,
                  {text: 'Pour tout réel x, cos(2π - x) = cos(x)' , correctAnswer : true , rightAnswer: 'THAT WAS TRUE'} ,
                  {text: 'Si sin(x) = 0, alors x est obligatoirement compris entre 0 et π' , correctAnswer: false , rightAnswer: 'x = kπ, k ∈ Z. exemple: 2π < x < 3π'} ,
@@ -143,7 +139,6 @@ window.onload = function() {
     button = document.getElementById('start');
     button.addEventListener('click', loadTheGame);
 
-    // Initialise les boutons de jeu à l'état désactivé
     trueBtn = document.getElementById('right');
     falseBtn = document.getElementById('wrong');
     trueBtn.disabled = true;

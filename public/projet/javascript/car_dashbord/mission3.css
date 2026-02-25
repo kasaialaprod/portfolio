@@ -31,7 +31,7 @@ body {
     padding: 20px;
 }
 
-/* Éléments de style Mercedes */
+
 .mercedes-logo {
     position: absolute;
     top: 20px;
@@ -50,7 +50,7 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-/* Section centrale - Compteur de vitesse */
+
 .speed-section {
     grid-column: 2;
     grid-row: 2;
@@ -82,7 +82,7 @@ body {
     margin-top: -10px;
 }
 
-/* Compteur de tours */
+
 .rpm-section {
     grid-column: 2;
     grid-row: 3;
@@ -118,7 +118,7 @@ body {
     color: #777;
 }
 
-/* Section gauche - Informations diverses */
+
 .left-section {
     grid-column: 1;
     grid-row: 2;
@@ -147,7 +147,7 @@ body {
     color: #fff;
 }
 
-/* Section droite - Navigation et média */
+
 .right-section {
     grid-column: 3;
     grid-row: 2;
@@ -182,7 +182,7 @@ body {
     color: #aaa;
 }
 
-/* Section en bas - Informations véhicule */
+
 .bottom-section {
     grid-column: 1 / span 3;
     grid-row: 3;
@@ -215,7 +215,7 @@ body {
     margin-left: 30px;
 }
 
-/* Éléments décoratifs */
+/* Décorations */
 .accent-line {
     position: absolute;
     bottom: 0;
@@ -235,7 +235,7 @@ body {
     background: radial-gradient(circle at center, rgba(0, 150, 255, 0.1) 0%, transparent 70%);
 }
 
-/* Animation pour le compteur de vitesse */
+
 @keyframes pulse {
     0% { text-shadow: 0 0 10px rgba(0, 150, 255, 0.7); }
     50% { text-shadow: 0 0 20px rgba(0, 150, 255, 0.9); }
@@ -244,4 +244,168 @@ body {
 
 .pulse {
     animation: pulse 2s infinite;
+}
+
+
+@media (max-width: 1200px) {
+    .dashboard-container {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .speed-display {
+        font-size: 80px;
+    }
+
+    .info-value {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        height: auto;
+        min-height: 100vh;
+        align-items: flex-start;
+        padding: 20px 0;
+        overflow: auto;
+    }
+
+    .dashboard-container {
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 15px;
+    }
+
+    .speed-section {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        margin-top: 40px;
+    }
+
+    .left-section {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .right-section {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .rpm-section {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    .bottom-section {
+        grid-column: 1 / span 2;
+        grid-row: 4;
+        padding: 10px 0;
+    }
+
+    .speed-display {
+        font-size: 70px;
+    }
+
+    .speed-unit {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px 0;
+    }
+
+    .dashboard-container {
+        width: 100%;
+        padding: 15px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+    }
+
+    .mercedes-logo {
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        font-size: 10px;
+    }
+
+    .speed-section {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 40px;
+    }
+
+    .left-section {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 10px 0;
+    }
+
+    .right-section {
+        grid-column: 1;
+        grid-row: 3;
+        padding: 10px 0;
+    }
+
+    .rpm-section {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .bottom-section {
+        grid-column: 1;
+        grid-row: 5;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .vehicle-info {
+        margin-bottom: 5px;
+    }
+
+    .speed-display {
+        font-size: 56px;
+    }
+
+    .speed-unit {
+        font-size: 18px;
+    }
+
+    .speed-label {
+        font-size: 14px;
+    }
+
+    .info-card {
+        padding: 10px;
+    }
+
+    .info-value {
+        font-size: 18px;
+    }
+
+    .nav-destination {
+        font-size: 16px;
+    }
+
+    .nav-info {
+        font-size: 12px;
+    }
+
+    .rpm-bar {
+        width: 100%;
+    }
+
+    .rpm-markers {
+        width: 100%;
+        font-size: 10px;
+    }
 }
