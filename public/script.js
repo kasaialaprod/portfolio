@@ -18,4 +18,5 @@ if ("serviceWorker" in navigator) {
   btn.addEventListener('click', (event) => {
     event.preventDefault();
     hero.classList.toggle('section-hero--expanded');
+    btn.textContent = "Cliquez sur chacune des technologies pour découvrir mes projets ;)"
   });

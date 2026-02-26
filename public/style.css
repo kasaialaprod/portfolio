@@ -56,15 +56,15 @@ body:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     animation: entry 3s ease-in-out 0s 1;
 }
 
 .container-prenom{
-    margin-top: 10px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     animation: entry 3s ease-in-out 0s 1;
 }
 
@@ -86,11 +86,11 @@ body:hover {
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
+    transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .circle:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     background: #000000;
 }
 
@@ -464,10 +464,23 @@ form input[type="submit"]:hover {
 }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   .circle {
     width: 20px;
     height: 20px;
+    background: #ffffffcc;
+    border-radius: 50%;
+    box-shadow: 0 1px 10px #ffffff9e;
+    transition: transform 0.1s ease;
+  }
+
+  
+}
+
+@media (max-width: 850px) {
+  .circle {
+    width: 15px;
+    height: 15px;
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
@@ -488,10 +501,23 @@ form input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .circle {
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
+    background: #ffffffcc;
+    border-radius: 50%;
+    box-shadow: 0 1px 10px #ffffff9e;
+    transition: transform 0.1s ease;
+  }
+
+  
+}
+
+@media (max-width: 770px) {
+  .circle {
+    width: 13px;
+    height: 13px;
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
@@ -521,8 +547,8 @@ form input[type="submit"]:hover {
   }
 
   .circle {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
@@ -540,8 +566,8 @@ form input[type="submit"]:hover {
   }
 
   .circle {
-    width: 4px;
-    height: 4px;
+    width: 3px;
+    height: 3px;
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
