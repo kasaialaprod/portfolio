@@ -12,11 +12,17 @@ if ("serviceWorker" in navigator) {
   });
 } */
 
-  const btn = document.getElementById('showCardsBtn');
-  const hero = document.querySelector('.section-hero');
+const btn = document.getElementById('showCardsBtn');
+const hero = document.querySelector('.section-hero');
+let isExpanded = false;
 
-  btn.addEventListener('click', (event) => {
-    event.preventDefault();
-    hero.classList.toggle('section-hero--expanded');
-    btn.textContent = "Cliquez sur chacune des technologies pour découvrir mes projets ;)"
-  });
+btn.addEventListener('click', (event) => {
+  event.preventDefault();
+  hero.classList.toggle('section-hero--expanded');
+
+  isExpanded = !isExpanded;
+  
+  // Change le texte du bouton
+  btn.textContent = isExpanded ? 'Cliquez sur chacune des technologies pour découvrir mes projets ;)' : 'Cliquez ici pour en savoir plus';
+
+});
