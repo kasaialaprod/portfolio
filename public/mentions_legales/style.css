@@ -1,3 +1,13 @@
+:root {
+  --grey-bg: #1f1f23;
+  --grey-soft: #2a2a30;
+  --blue-navy: #0a1034;
+  --pink-pastel: #ffc5d3;
+  --accent-pink-soft: #ffd9e3;
+  --text-main: #f7f7ff;
+  --text-muted: #b6b6c7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +17,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: var(--text-main);
+    background: var(--grey-bg);
     min-height: 100vh;
     padding: 40px 20px;
 }
@@ -16,14 +26,14 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    background: white;
+    background: var(--grey-soft);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--blue-navy) 0%, var(--pink-pastel) 100%);
     color: white;
     padding: 40px 30px;
     text-align: center;
@@ -57,7 +67,7 @@ h2 {
 }
 
 h3 {
-    color: #555;
+    color: var(--pink-pastel);
     font-size: 1.2em;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -69,7 +79,7 @@ p {
 }
 
 strong {
-    color: #667eea;
+    color: var(--accent-pink-soft);
 }
 
 ul, ol {
@@ -82,7 +92,7 @@ li {
 }
 
 .info-box {
-    background: #f8f9fa;
+    background: var(--grey-soft);
     border-left: 4px solid #667eea;
     padding: 15px;
     margin: 20px 0;
@@ -105,7 +115,7 @@ a:hover {
 }
 
 .contact-info {
-    background: #f0f4ff;
+    background: var(--grey-soft);
     padding: 20px;
     border-radius: 6px;
     margin: 20px 0;
@@ -116,7 +126,7 @@ a:hover {
 }
 
 footer {
-    background: #f5f7fa;
+    background: var(--grey-soft);
     padding: 20px 30px;
     text-align: center;
     color: #666;

@@ -335,26 +335,26 @@ p {
 /* FONDS DES SECTIONS */
 .section-hero {
   background:
-    radial-gradient(circle at 10% 0%, rgba(255, 197, 211, 0.25), transparent 60%),
-    radial-gradient(circle at 90% 100%, rgba(10, 16, 52, 0.9), transparent 65%),
+    radial-gradient(circle at 10% 0%, #ffc5d340, transparent 60%),
+    radial-gradient(circle at 90% 100%, #0a1034e6, transparent 65%),
     linear-gradient(135deg, var(--grey-bg), #101018);
 }
 
 .section-about {
   background:
-    radial-gradient(circle at 0% 100%, rgba(255, 197, 211, 0.16), transparent 55%),
+    radial-gradient(circle at 0% 100%, #ffc5d329, transparent 55%),
     linear-gradient(145deg, #101018, #070814);
 }
 
 .section-projects {
   background:
-    radial-gradient(circle at 100% 0%, rgba(174, 198, 255, 0.3), transparent 55%),
+    radial-gradient(circle at 100% 0%, #aec6ff4d, transparent 55%),
     linear-gradient(155deg, var(--blue-navy), #050612);
 }
 
 .section-contact {
   background:
-    radial-gradient(circle at 50% 100%, rgba(255, 197, 211, 0.12), transparent 60%),
+    radial-gradient(circle at 50% 100%, #ffc5d31f, transparent 60%),
     linear-gradient(165deg, #050612, #000000);
 }
 
@@ -442,6 +442,25 @@ form input[type="submit"]:hover {
   background: var(--grey-soft);
   transform: translateY(-1px);
   box-shadow: 0 0 20px rgba(255, 197, 211, 0.4);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 7rem;
+  color: var(--pink-pastel);
+  text-decoration: none;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.footer a {
+  color: var(--pink-pastel);
+  text-decoration: none;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--accent-pink-soft);
+  text-shadow: 0 0 8px rgba(255, 197, 211, 0.7);
 }
 
 /* RESPONSIVE */
@@ -560,6 +579,25 @@ form input[type="submit"]:hover {
   .circle {
     width: 3px;
     height: 3px;
+    background: #ffffffcc;
+    border-radius: 50%;
+    box-shadow: 0 1px 10px #ffffff9e;
+    transition: transform 0.1s ease;
+}
+}
+
+@media (max-width: 200px) {
+  .content {
+    padding: 1rem 0.5rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  .circle {
+    width: 1px;
+    height: 1px;
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
