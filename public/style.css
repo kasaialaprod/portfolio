@@ -403,6 +403,8 @@ p {
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -414,6 +416,7 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form textarea {
+    width: 100%;
     padding: 10px 12px;
     border-radius: 8px;
     border: 1px solid rgba(255,255,255,0.09);
@@ -579,7 +582,7 @@ form input[type="submit"]:hover {
 }
 }
 
-@media (max-width: 300px) {
+/*@media (max-width: 300px) {
   .content {
     padding: 1rem 0.5rem;
   }
@@ -596,9 +599,9 @@ form input[type="submit"]:hover {
     box-shadow: 0 1px 10px #ffffff9e;
     transition: transform 0.1s ease;
 }
-}
+}*/
 
-@media (max-width: 200px) {
+@media (max-width: 500px) {
   .content {
     padding: 1rem 0.5rem;
   }
@@ -607,12 +610,156 @@ form input[type="submit"]:hover {
     font-size: 0.75rem;
   }
 
+  .section-hero.section-hero--expanded .cta-cards {
+    font-size: 0.2rem;
+    margin-top: 0.1rem;
+  }
+
+  
+  .container{
+    gap: 10px;
+  }
+  .container-prenom{
+    gap: 10px;
+  }
   .circle {
-    width: 1px;
-    height: 1px;
+    width: 4px;
+    height: 4px;
     background: #ffffffcc;
     border-radius: 50%;
     box-shadow: 0 1px 10px #ffffff9e;
     transition: transform 0.1s ease;
+  }
+  .section-hero.section-hero--expanded h2 {
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+  }
+
+  .section-hero.section-hero--expanded p {
+    display: none;
+  }
+
+  .section-hero.section-hero--expanded .cta-cards {
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+  }
+
+  
+  .section-hero.section-hero--expanded .cards-wrapper {
+  display: grid;
+  width: 100%;
+  max-width: 1900px;
+  grid-template-columns: repeat(2, minmax(110px, 1fr));
+  transform: translateY(0);
+  pointer-events: auto;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .section-hero.section-hero--expanded .cards-wrapper .card {
+  width: 100%;
+  background: #080a1cd9;
+  border-radius: 18px;
+  padding: 1.5rem 1.25rem;
+  border: 1px solid #ffc5d32e;
+  box-shadow: 0 18px 50px #000000b3;
+  color: #e5e7ff;
+  text-align: center;
+  }
+  .section-hero.section-hero--expanded .cards-wrapper .card h2 {
+    font-size: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+  .section-hero.section-hero--expanded .cards-wrapper .card p {
+    font-size: 0.4rem;
+    color: #c7c8d9;
+  }
+
+  .section-hero.section-hero--expanded .card-tech {
+  width: 100%;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  }
+  .section-hero.section-hero--expanded .card-tech span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a1034;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.4rem;
+  color: #f7f7ff;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  form input[type="submit"] {
+    margin: 1rem 0;
+    padding: 0.6rem 0.8rem;
+    border-radius: 999px;
+    width: 75%;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--blue-navy);
+    background: linear-gradient(135deg, var(--pink-pastel), var(--accent-pink-soft));
+    transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+  }
 }
-}
+
+@media (max-height: 600px) {
+  .section-about .content {
+  width: 90%;
+  text-align: center;
+  background: none;
+  border-radius: 22px;
+  padding: 2.5rem 2rem;
+  border: 1px solid rgba(255, 197, 211, 0.25);
+  }
+
+  .section-about .content h2 {
+    font-size: 1rem;
+  }
+  .section-about .content p {
+    font-size: 0.5rem;
+  }
+
+  .section-hero.section-hero--expanded {
+    padding-top: 0;
+  }
+
+  .section-hero.section-hero--expanded .content {
+    width: 100%;
+    height: auto;
+    transform: translateY(20px);
+    padding: 1rem 0.5rem;
+  }
+
+  .section-hero.section-hero--expanded .cards-wrapper .card {
+    padding: 1rem 0.5rem;
+  }
+  
+  .section-projects .content {
+    justify-content: center;
+
+  }
+  .section-projects .content .card {
+    width: 100%;
+    background: #080a1cd9;
+    border-radius: 18px;
+    padding: 1rem 0.5rem;
+    border: 1px solid #ffc5d32e;
+    box-shadow: 0 18px 50px #000000b3;
+    color: #e5e7ff;
+    text-align: center;
+  }
+
+  .footer {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+  }
+}  
