@@ -1,6 +1,5 @@
 <?php
-
-
+/*
 session_start();
 require_once __DIR__ . '/../database/db.php';
 
@@ -24,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $error = "Identifiants incorrects";
     }
-}
+}*/
 ?>
 
 
@@ -32,15 +31,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion Admin</title>
 </head>
 <body>
     <h1>Connexion admin</h1>
-<?php if ($error): ?>
-    <p style="color:red;"><?= htmlspecialchars($error) ?></p>
-<?php endif; ?>
+
+    <?php if ($error): ?>
+        <p style="color:red;"><?= htmlspecialchars($error) ?></p>
+    <?php endif; ?>
+
     <form method="POST">
         <label>Nom d'utilisateur:<br>
             <input type="text" name="username" required>

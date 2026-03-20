@@ -1,0 +1,150 @@
+:root {
+  --grey-bg: #1f1f23;
+  --grey-soft: #2a2a30;
+  --blue-navy: #0a1034;
+  --pink-pastel: #ffc5d3;
+  --accent-pink-soft: #ffd9e3;
+  --text-main: #f7f7ff;
+  --text-muted: #b6b6c7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background: radial-gradient(circle at 100% 0%, rgba(174, 198, 255, 0.3), transparent 55%), linear-gradient(155deg, var(--blue-navy), #050612);
+}
+body:hover {
+    cursor: default;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 197, 211, 0.08),
+    rgba(10, 16, 52, 0.4)
+  );
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  padding: 2.5rem 2rem;
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.65),
+    0 0 0 1px rgba(255, 255, 255, 0.03);
+  transition: transform 0.4s ease, margin 0.4s ease, width 0.4s ease, height 0.4s ease;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--text-main);
+}
+
+header p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+.cards-wrapper {
+  display: grid;
+  width: 100%;
+  max-width: 1900px;
+  padding: 20px;
+  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.cards-wrapper .card {
+    position: relative;
+  background: #080a1cd9;
+  border-radius: 18px;
+  padding: 1.5rem 1.25rem;
+  border: 1px solid #ffc5d32e;
+  box-shadow: 0 18px 50px #000000b3;
+  color: var(--text-main);
+  text-align: center;
+
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.btn-delete {
+  border-radius: 999px;
+  border: 1px solid rgba(248, 113, 113, 0.7);
+  background: rgba(239, 68, 68, 0.15);
+  color: #fecaca;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-delete:hover {
+  background: rgba(239, 68, 68, 0.3);
+  box-shadow: 0 0 14px rgba(248, 113, 113, 0.7);
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.card:hover {
+  border-color: #ffc5d3;
+  box-shadow: 0 24px 70px #000000b3;
+  transform: translateY(-4px);
+  transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.new-projet {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-pink-soft);
+  color: var(--blue-navy);
+  border-radius: 12px;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.new-projet:hover {
+  background: var(--pink-pastel);
+  color: var(--blue-navy);
+  cursor: pointer;
+}

@@ -3,9 +3,9 @@
 
 $host = 'localhost';
 $port = '3306';          
-$db   = 'u860758557_portfolio';      
-$user = 'u860758557_kasaialaprod';
-$pass = 'I<3Florent';           
+$db   = 'portfolio';      
+$user = 'root';
+$pass = 'root';           
 
 $charset = 'utf8mb4';
 
@@ -21,3 +21,13 @@ try {
 } catch (PDOException $e) {
     die('Erreur de connexion : ' . $e->getMessage());
 }
+
+$sql = "
+CREATE TABLE IF NOT EXISTS projects (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tech VARCHAR(50) NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    url VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+";
