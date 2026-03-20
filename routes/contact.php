@@ -71,7 +71,7 @@ if (empty($erreurs)) {
         $mail->send();
 
         // Redirection après succès
-        header('Location: index.php?success=1');
+        header('Location: ../index.html?success=1');
         exit;
 
     } catch (Exception $e) {
