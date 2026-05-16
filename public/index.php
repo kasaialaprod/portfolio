@@ -27,411 +27,110 @@ session_start();
                 <a href="#section-projects">LINKS</a></li>
             </nav>
         </header>
-      <div class="container">
-        <table class ="letter K">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class="letter O">
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-        </table>
-        <table class ="letter K">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class="letter E">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class ="letter S">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class="letter H">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class ="letter A">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
+        <div class="name-block" aria-label="Kokesha Israël">
+        <svg class="name-svg name-svg--lastname" viewBox="0 0 420 60" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Kokesha" xmlns="http://www.w3.org/2000/svg">
+        <title>Kokesha</title>
+        <g fill="currentColor" transform="translate(30 0)">
+            <!-- K -->
+            <circle cx="5" cy="5" r="5"/><circle cx="35" cy="5" r="5"/>
+            <circle cx="5" cy="15" r="5"/><circle cx="25" cy="15" r="5"/>
+            <circle cx="5" cy="25" r="5"/><circle cx="15" cy="25" r="5"/>
+            <circle cx="5" cy="35" r="5"/><circle cx="25" cy="35" r="5"/>
+            <circle cx="5" cy="45" r="5"/><circle cx="35" cy="45" r="5"/>
+
+            <!-- O -->
+            <circle cx="65" cy="5" r="5"/><circle cx="75" cy="5" r="5"/>
+            <circle cx="55" cy="15" r="5"/><circle cx="85" cy="15" r="5"/>
+            <circle cx="55" cy="25" r="5"/><circle cx="85" cy="25" r="5"/>
+            <circle cx="55" cy="35" r="5"/><circle cx="85" cy="35" r="5"/>
+            <circle cx="65" cy="45" r="5"/><circle cx="75" cy="45" r="5"/>
+
+            <!-- K -->
+            <circle cx="105" cy="5" r="5"/><circle cx="135" cy="5" r="5"/>
+            <circle cx="105" cy="15" r="5"/><circle cx="125" cy="15" r="5"/>
+            <circle cx="105" cy="25" r="5"/><circle cx="115" cy="25" r="5"/>
+            <circle cx="105" cy="35" r="5"/><circle cx="125" cy="35" r="5"/>
+            <circle cx="105" cy="45" r="5"/><circle cx="135" cy="45" r="5"/>
+
+            <!-- E -->
+            <circle cx="155" cy="5" r="5"/><circle cx="165" cy="5" r="5"/><circle cx="175" cy="5" r="5"/><circle cx="185" cy="5" r="5"/>
+            <circle cx="155" cy="15" r="5"/>
+            <circle cx="155" cy="25" r="5"/><circle cx="165" cy="25" r="5"/><circle cx="175" cy="25" r="5"/>
+            <circle cx="155" cy="35" r="5"/>
+            <circle cx="155" cy="45" r="5"/><circle cx="165" cy="45" r="5"/><circle cx="175" cy="45" r="5"/><circle cx="185" cy="45" r="5"/>
+
+            <!-- S -->
+            <circle cx="205" cy="5" r="5"/><circle cx="215" cy="5" r="5"/><circle cx="225" cy="5" r="5"/><circle cx="235" cy="5" r="5"/>
+            <circle cx="205" cy="15" r="5"/>
+            <circle cx="205" cy="25" r="5"/><circle cx="215" cy="25" r="5"/><circle cx="225" cy="25" r="5"/><circle cx="235" cy="25" r="5"/>
+            <circle cx="235" cy="35" r="5"/>
+            <circle cx="205" cy="45" r="5"/><circle cx="215" cy="45" r="5"/><circle cx="225" cy="45" r="5"/><circle cx="235" cy="45" r="5"/>
+
+            <!-- H -->
+            <circle cx="255" cy="5" r="5"/><circle cx="285" cy="5" r="5"/>
+            <circle cx="255" cy="15" r="5"/><circle cx="285" cy="15" r="5"/>
+            <circle cx="255" cy="25" r="5"/><circle cx="265" cy="25" r="5"/><circle cx="275" cy="25" r="5"/><circle cx="285" cy="25" r="5"/>
+            <circle cx="255" cy="35" r="5"/><circle cx="285" cy="35" r="5"/>
+            <circle cx="255" cy="45" r="5"/><circle cx="285" cy="45" r="5"/>
+
+            <!-- A -->
+            <circle cx="305" cy="5" r="5"/><circle cx="315" cy="5" r="5"/><circle cx="325" cy="5" r="5"/><circle cx="335" cy="5" r="5"/>
+            <circle cx="305" cy="15" r="5"/><circle cx="335" cy="15" r="5"/>
+            <circle cx="305" cy="25" r="5"/><circle cx="315" cy="25" r="5"/><circle cx="325" cy="25" r="5"/><circle cx="335" cy="25" r="5"/>
+            <circle cx="305" cy="35" r="5"/><circle cx="335" cy="35" r="5"/>
+            <circle cx="305" cy="45" r="5"/><circle cx="335" cy="45" r="5"/>
+
+        </g>
+        </svg>
+
+        <svg class="name-svg name-svg--firstname" viewBox="0 0 310 60" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Israel" xmlns="http://www.w3.org/2000/svg">
+        <title>Israel</title>
+        <g fill="currentColor" transform="translate(22 0)">
+            <!-- I -->
+            <circle cx="15" cy="5" r="5"/>
+            <circle cx="15" cy="15" r="5"/>
+            <circle cx="15" cy="25" r="5"/>
+            <circle cx="15" cy="35" r="5"/>
+            <circle cx="15" cy="45" r="5"/>
+
+            <!-- S -->
+            <circle cx="45" cy="5" r="5"/><circle cx="55" cy="5" r="5"/><circle cx="65" cy="5" r="5"/><circle cx="75" cy="5" r="5"/>
+            <circle cx="45" cy="15" r="5"/>
+            <circle cx="45" cy="25" r="5"/><circle cx="55" cy="25" r="5"/><circle cx="65" cy="25" r="5"/><circle cx="75" cy="25" r="5"/>
+            <circle cx="75" cy="35" r="5"/>
+            <circle cx="45" cy="45" r="5"/><circle cx="55" cy="45" r="5"/><circle cx="65" cy="45" r="5"/><circle cx="75" cy="45" r="5"/>
+
+            <!-- R -->
+            <circle cx="95" cy="5" r="5"/><circle cx="105" cy="5" r="5"/><circle cx="115" cy="5" r="5"/><circle cx="125" cy="5" r="5"/>
+            <circle cx="95" cy="15" r="5"/><circle cx="125" cy="15" r="5"/>
+            <circle cx="95" cy="25" r="5"/><circle cx="105" cy="25" r="5"/><circle cx="115" cy="25" r="5"/><circle cx="125" cy="25" r="5"/>
+            <circle cx="95" cy="35" r="5"/><circle cx="115" cy="35" r="5"/>
+            <circle cx="95" cy="45" r="5"/><circle cx="125" cy="45" r="5"/>
+
+            <!-- A -->
+            <circle cx="145" cy="5" r="5"/><circle cx="155" cy="5" r="5"/><circle cx="165" cy="5" r="5"/><circle cx="175" cy="5" r="5"/>
+            <circle cx="145" cy="15" r="5"/><circle cx="175" cy="15" r="5"/>
+            <circle cx="145" cy="25" r="5"/><circle cx="155" cy="25" r="5"/><circle cx="165" cy="25" r="5"/><circle cx="175" cy="25" r="5"/>
+            <circle cx="145" cy="35" r="5"/><circle cx="175" cy="35" r="5"/>
+            <circle cx="145" cy="45" r="5"/><circle cx="175" cy="45" r="5"/>
+
+            <!-- E -->
+            <circle cx="195" cy="5" r="5"/><circle cx="205" cy="5" r="5"/><circle cx="215" cy="5" r="5"/><circle cx="225" cy="5" r="5"/>
+            <circle cx="195" cy="15" r="5"/>
+            <circle cx="195" cy="25" r="5"/><circle cx="205" cy="25" r="5"/><circle cx="215" cy="25" r="5"/>
+            <circle cx="195" cy="35" r="5"/>
+            <circle cx="195" cy="45" r="5"/><circle cx="205" cy="45" r="5"/><circle cx="215" cy="45" r="5"/><circle cx="225" cy="45" r="5"/>
+
+            <!-- L -->
+            <circle cx="245" cy="5" r="5"/>
+            <circle cx="245" cy="15" r="5"/>
+            <circle cx="245" cy="25" r="5"/>
+            <circle cx="245" cy="35" r="5"/>
+            <circle cx="245" cy="45" r="5"/><circle cx="255" cy="45" r="5"/><circle cx="265" cy="45" r="5"/><circle cx="275" cy="45" r="5"/>
+        </g>
+        </svg>
         </div>
 
-        <div class="container-prenom">
-        <table class ="letter I">
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-        </table>
-        <table class ="letter S">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class ="letter R">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class ="letter A">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class="letter E">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-        <table class="letter L">
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-                <td><div class="circle"></div></td>
-            </tr>
-        </table>
-      </div>
       <br>
       <div class="content">
         <h2>À propos</h2>

@@ -91,21 +91,44 @@ h1 {
   isolation: isolate;
 }
 
-.container{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    animation: entry 3s ease-in-out 0s 1;
+.name-block {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0 0;
 }
 
-.container-prenom{
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    animation: entry 3s ease-in-out 0s 1;
+.name-svg {
+  display: block;
+  margin-inline: auto;
+  height: auto;
+}
+
+.name-svg--lastname {
+  width: min(92vw, 760px);
+}
+
+.name-svg--firstname {
+  width: min(62vw, 520px);
+  margin-top: 0.4rem;
+}
+
+.name-svg circle {
+  fill: currentColor;
+}
+
+@media (max-width: 768px) {
+  .name-block {
+    gap: 0.55rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .name-svg--lastname {
+    max-width: 100%;
+  }
+
+  .name-svg--firstname {
+    max-width: 68%;
+  }
 }
 
 /* Animation d'entrée */
@@ -118,20 +141,6 @@ h1 {
         opacity: 1;
         transform: translateX(0);
     }
-}
-
-.circle {
-    width: 35px;
-    height: 35px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.circle:hover {
-    transform: scale(1.2);
-    background: #000000;
 }
 
 .section-about .content {
