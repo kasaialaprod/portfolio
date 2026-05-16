@@ -85,6 +85,11 @@ $messages = $stmt->fetchAll();*/
           <p>PHP</p>
         </article></a>
 
+        <a href="projet/python/index.php"><article class="tech-card" data-tech="python">
+          <h3>Développement Back End</h3>
+          <p>Python</p>
+        </article></a>
+
         <!-- Système -->
         <a href="projet/c/index.php"><article class="tech-card" data-tech="c">
           <h3>Développement Système</h3>
@@ -96,6 +101,42 @@ $messages = $stmt->fetchAll();*/
           <p>C++</p>
         </article></a>
       </div>
+    </section>
+
+    <section class="upload-section">
+      <h2 class="upload-title">Lien et document</h2>
+      <p class="upload-subtitle">
+        Ajoute/Modifie des liens ou télécharge des documents (cv, github etc).
+      </p>
+      <form action="/routes/upload_doc.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="cv_file" accept="application/pdf" required />
+        <button type="submit">Télécharger nouveau CV</button>
+      </form>
+      <?php
+      $filePath = __DIR__ . '/../database/links.json';
+
+      $links = [];
+      if (file_exists($filePath)) {
+          $links = json_decode(file_get_contents($filePath), true);
+          if (!is_array($links)) {
+              $links = [];
+          }
+      }
+      ?>
+
+      <div class="links-list">
+          <?php foreach ($links as $link): ?>
+              <div class="link-card" data-id="<?php echo htmlspecialchars($link['id']); ?>">
+                  <h3><?php echo htmlspecialchars($link['title']); ?></h3>
+                  <a href="<?php echo htmlspecialchars($link['url']); ?>" target="_blank" rel="noopener noreferrer">
+                      <?php echo htmlspecialchars($link['url']); ?>
+                  </a>
+                  <button type="button" class="btn-delete-link">Supprimer</button>
+              </div>
+          <?php endforeach; ?>
+      </div>
+      <div class="new-link" id="new-link" >+ Ajouter un lien</div>
+      
     </section>
 
     <section class="message-section">
@@ -133,7 +174,7 @@ $messages = $stmt->fetchAll();*/
                             <td>
                                 <a href="mailto:<?= htmlspecialchars($msg['email']) ?>?subject=Re%3A%20Votre%20message">Répondre</a>
                                 |
-                                <a href="messages.php?delete=<?= (int)$msg['id'] ?>"
+                                <a href="backoffice.php?delete=<?= (int)$msg['id'] ?>"
                                 onclick="return confirm('Supprimer ce message ?');">
                                     Supprimer
                                 </a>
@@ -145,7 +186,6 @@ $messages = $stmt->fetchAll();*/
             <?php endif; ?>
     </section>
   </main>
-
-  <script src="admin-tech.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
