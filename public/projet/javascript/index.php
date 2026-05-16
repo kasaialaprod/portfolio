@@ -13,7 +13,9 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Projets HTML/CSS - Portfolio d'Israël</title>
+    <meta name="keywords" content="Javascript, projets Javascript, développement Javascript, portfolio Javascript, applications Javascript, Israël développeur Javascript">
+    <meta name="description" content="Découvrez les projets réalisés en Javascript par Israël, développeur Javascript">
+    <title>Projets Javascript - Portfolio d'Israël</title>
 </head>
 <body>
     <header>

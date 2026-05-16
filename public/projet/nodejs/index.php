@@ -12,6 +12,8 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Node.js, projets Node.js, développement Node.js, portfolio Node.js, applications Node.js, Express.js, Nest.js, Israël développeur Node.js">
+    <meta name="description" content="Découvrez les projets réalisés en Node.js par Israël, développeur Node.js">
     <link rel="stylesheet" href="style.css">
     <title>Projets Node.js - Portfolio d'Israël</title>
 </head>

@@ -13,6 +13,8 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="Python, projets Python, développement Python, portfolio Python, applications Python, Israël développeur Python">
+    <meta name="description" content="Découvrez les projets réalisés en Python par Israël, développeur Python">
     <title>Projets Python - Portfolio d'Israël</title>
 </head>
 <body>

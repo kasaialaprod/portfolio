@@ -12,6 +12,8 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="C, projets C, développement C, portfolio C, applications C, Israël développeur C">
+    <meta name="description" content="Découvrez les projets réalisés en C par Israël, développeur C">
     <link rel="stylesheet" href="style.css">
     <title>Projets C - Portfolio d'Israël</title>
 </head>

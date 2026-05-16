@@ -13,6 +13,8 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="Swift, projets Swift, développement Swift, portfolio Swift, applications Swift, Israël développeur Swift">
+    <meta name="description" content="Découvrez les projets réalisés en Swift par Israël, développeur Swift">
     <title>Projets Swift - Portfolio d'Israël</title>
 </head>
 <body>

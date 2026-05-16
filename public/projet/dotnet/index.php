@@ -13,6 +13,8 @@ $projects = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content=".NET, projets .NET, développement .NET, portfolio .NET, applications .NET, Israël développeur .NET">
+    <meta name="description" content="Découvrez les projets réalisés en .NET par Israël, développeur .NET">
     <title>Projets .NET - Portfolio d'Israël</title>
 </head>
 <body>
