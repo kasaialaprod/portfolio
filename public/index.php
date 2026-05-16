@@ -9,14 +9,14 @@ session_start();
   <link rel="icon" href="asset/image/logo-marin.png" type="image/png" sizes="16x16 32x32 48x48">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="ISRAËL KOKESHA">
-  <meta name="description" content="Portfolio d'Israël KOKESHA, étudiant en développement informatique à Digital Campus, développeur full-stack, javascript , php, csharp, react et node.js et plein d'autres choses car je suis un passionné et surtout un goat, ce qui sera certainement dur à oublier. Et accessoirement, maitre suprême de l'univers.">
-  <title>Portfolio d'Isra</title>
+  <meta name="description" content="Portfolio d’Israël Kokesha, étudiant en développement informatique / web à Paris et toute la région. Projets en React, JavaScript, PHP, Node.js Swift .NET etc.">
+  <title>Portfolio d’Israël Kokesha | Développeur full-stack</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="viewport">
     <h1 class="title">
-      HELLO WORLD, C'EST MOI ISRA ;&#41;
+      Israël KOKESHA - Développeur full-stack
     </h1>
     <section class="section section-about" id="section-about">
         <header class="menu" id="menu">
@@ -447,7 +447,7 @@ session_start();
         <p>Les services et tâches que je peux réaliser et les technologies que je maîtrise.</p>
 
         <button class="cta-cards" id="showCardsBtn">
-          Cliquez ici pour en savoir plus
+          Cliquez ici pour voir mes projets et compétences techniques !
         </button>
       </div>
       <div class="cards-wrapper" id="cardsWrapper">
@@ -549,7 +549,7 @@ session_start();
             <p><a href="mentions_legales/index.html">Mentions Légales</a></p>
             <p>&copy; 2025 Mon Portfolio</p>
         </div>
-        <img src="asset/image/logo-lightpink.png" alt="Logo" class="logo" width="30px">
+        <img src="asset/image/logo-lightpink.png" alt="Logo d'Israël Kokesha, développeur full-stack" class="logo" width="30px">
     </section>
     <footer class="footer">
       <p><a href="mentions_legales/index.html">Mentions Légales</a></p>
