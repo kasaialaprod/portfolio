@@ -21,10 +21,10 @@ session_start();
     <section class="section section-about" id="section-about">
         <header class="menu" id="menu">
             <nav>
-                <a href="#section-about">HOME</a></li>
-                <a href="#section-hero">PROJETS</a></li>
-                <a href="#section-contact">CONTACT</a></li>
-                <a href="#section-projects">LINKS</a></li>
+                <a href="#section-about">HOME</a>
+                <a href="#section-hero">PROJETS</a>
+                <a href="#section-contact">CONTACT</a>
+                <a href="#section-projects">LINKS</a>
             </nav>
         </header>
         <div class="name-block" aria-label="Kokesha Israël">

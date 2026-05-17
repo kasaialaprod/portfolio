@@ -27,9 +27,6 @@ body {
   color: var(--text-main);
   margin: 0;
 }
-body:hover {
-  cursor: default;
-}
 
 /* CONTENEUR GLOBAL DES SECTIONS */
 .viewport {
@@ -129,18 +126,6 @@ h1 {
   .name-svg--firstname {
     max-width: 68%;
   }
-}
-
-/* Animation d'entrée */
-@keyframes entry {
-    0% {
-        opacity: 0;
-        transform: translateX(-150px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 .section-about .content {
@@ -420,14 +405,6 @@ p {
   right: 10%;
 }
 
-#from {
-    margin-top: 32px;
-}
-
-#from h2 {
-    margin-bottom: 10px;
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -508,14 +485,6 @@ form input[type="submit"]:hover {
 
 /* RESPONSIVE */
 @media (max-width: 1200px) {
-  .circle {
-    width: 25px;
-    height: 25px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-  }
 
   .section-hero.section-hero--expanded .cards-wrapper {
   display: grid !important;
@@ -528,29 +497,10 @@ form input[type="submit"]:hover {
   transform: translateY(0);
   pointer-events: auto;
   transition: opacity 0.4s ease, transform 0.4s ease;
-  }
-}
-
-@media (max-width: 950px) {
-  .circle {
-    width: 20px;
-    height: 20px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
   }
 }
 
 @media (max-width: 850px) {
-  .circle {
-    width: 15px;
-    height: 15px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-  }
 
   .section-hero.section-hero--expanded .cards-wrapper {
   display: grid !important;
@@ -566,29 +516,7 @@ form input[type="submit"]:hover {
   }
 }
 
-@media (max-width: 800px) {
-  .circle {
-    width: 15px;
-    height: 15px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-  }
-
-  
-}
-
 @media (max-width: 770px) {
-  .circle {
-    width: 13px;
-    height: 13px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-  }
-
   .section-hero.section-hero--expanded .cards-wrapper .card h2 {
     font-size: 0.7rem;
     margin-bottom: 0.4rem;
@@ -622,35 +550,7 @@ form input[type="submit"]:hover {
     font-size: 0.6rem;
     margin-top: 0.4rem;
   }
-
-  .circle {
-    width: 10px;
-    height: 10px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
 }
-}
-
-/*@media (max-width: 300px) {
-  .content {
-    padding: 1rem 0.5rem;
-  }
-
-  p {
-    font-size: 0.75rem;
-  }
-
-  .circle {
-    width: 3px;
-    height: 3px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-}
-}*/
 
 @media (max-width: 500px) {
   .content {
@@ -666,21 +566,13 @@ form input[type="submit"]:hover {
     margin-top: 0.1rem;
   }
 
-  
   .container{
     gap: 10px;
   }
   .container-prenom{
     gap: 10px;
   }
-  .circle {
-    width: 7px;
-    height: 7px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-  }
+  
   .section-hero.section-hero--expanded h2 {
   font-size: 0.8rem;
   margin-bottom: 0.4rem;
@@ -779,21 +671,13 @@ form input[type="submit"]:hover {
     margin-top: 0.1rem;
   }
 
-  
   .container{
     gap: 10px;
   }
   .container-prenom{
     gap: 10px;
   }
-  .circle {
-    width: 4px;
-    height: 4px;
-    background: #ffffffcc;
-    border-radius: 50%;
-    box-shadow: 0 1px 10px #ffffff9e;
-    transition: transform 0.1s ease;
-  }
+
   .section-hero.section-hero--expanded h2 {
   font-size: 0.8rem;
   margin-bottom: 0.4rem;
@@ -808,7 +692,6 @@ form input[type="submit"]:hover {
     margin-top: 0.5rem;
   }
 
-  
   .section-hero.section-hero--expanded .cards-wrapper {
   display: grid;
   width: 100%;
@@ -994,12 +877,6 @@ form input[type="submit"]:hover {
     margin-top: 0.75rem;
     gap: 0.35rem;
     flex-wrap: wrap;
-  }
-
-  .circle {
-    width: 1.5px;
-    height: 1.5px;
-    box-shadow: 0 0 6px #ffffff9e;
   }
 
   .tag {
