@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_FILES['cv_file']) && $_FILES['cv_file']['error'] === UPLOAD_ERR_OK) {
         $file = $_FILES['cv_file'];
 
-        $uploadDir = __DIR__ . '/../asset/doc/';
+        $uploadDir = rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/asset/doc/';
 
         if (!is_dir($uploadDir)) {
             mkdir($uploadDir, 0777, true);
@@ -15,7 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $extension = strtolower(pathinfo($fileName, PATHINFO_EXTENSION));
 
         if ($extension !== 'pdf') {
-            header('Location: /admin/backoffice.php?error=type');
+            $_SESSION['js_alert'] = 'Le fichier doit être un PDF.';
+            header('Location: /admin/backoffice.php');
             exit;
         }
 
@@ -23,14 +24,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if (move_uploaded_file($file['tmp_name'], $uploadFile)) {
             $_SESSION['cv_file_name'] = $fileName;
-            header('Location: /admin/backoffice.php?success=1');
-            exit;
+            $_SESSION['js_alert'] = 'Le CV a bien été importé.';
         } else {
-            header('Location: /admin/backoffice.php?error=move');
-            exit;
+            $_SESSION['js_alert'] = "L'upload a échoué : fichier non déplacé.";
         }
+
+        header('Location: /admin/backoffice.php');
+        exit;
     } else {
-        header('Location: /admin/backoffice.php?error=upload');
+        $_SESSION['js_alert'] = "Erreur upload code : " . ($_FILES['cv_file']['error'] ?? 'inconnu');
+        header('Location: /admin/backoffice.php');
         exit;
     }
 }

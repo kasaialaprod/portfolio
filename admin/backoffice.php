@@ -22,6 +22,17 @@ $stmt = $pdo->query("SELECT * FROM messages ORDER BY created_at DESC");
 $messages = $stmt->fetchAll();*/
 ?>
 
+<?php
+session_start();
+?>
+
+<?php if (isset($_SESSION['js_alert'])): ?>
+    <script>
+        alert(<?= json_encode($_SESSION['js_alert']) ?>);
+    </script>
+    <?php unset($_SESSION['js_alert']); ?>
+<?php endif; ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
